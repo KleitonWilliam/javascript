@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro teste de javascript</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+            margin: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = prompt("Qual é o seu nome?");
+        document.write("Olá, " + nome + "! Bem-vindo ao meu site.");
+        var idade = prompt("Qual é a sua idade?");
+        document.write("<br>Sua idade é: " + idade);
+        idade = Number(idade) * 365;
+        document.write("<br>Sua idade em dias é: " + idade);
+        document.write("<br>Obrigado " + nome + " por visitar meu site!");
+    </script>
+</body>
+</html>
